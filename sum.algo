@@ -1,0 +1,26 @@
+ALGORITHM algo 2-1
+VAR
+    set 1 ,set 2 : array-of-INTEGER
+    i,j,sum, arry-of-INTEGER
+BEGIN
+
+    sum:=0
+    FOR i FROM 0 TO set 2.length STEP 1  DO
+    FOR i FROM 0 TO set 2.length STEP 1  DO
+        IF (set1[i]<>set2[j]) THEN
+            sum:=sum+set1[i]
+        END_IF
+    END_FOR
+    END_FOR
+    FOR i FROM 0 TO set2.length STEP 1  DO
+    FOR i FROM 0 TO set1.length STEP 1  DO
+        IF (set2[j] <> set1[i]) THEN
+        sum:=sum+set2[j]
+           
+        END_IF
+        
+    END_FOR
+        
+    END_FOR
+
+END
